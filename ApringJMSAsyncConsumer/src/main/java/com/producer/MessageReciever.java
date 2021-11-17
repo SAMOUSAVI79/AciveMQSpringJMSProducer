@@ -23,7 +23,7 @@ public class MessageReciever {
         System.out.println("headers : " + headers);
 
         Product product = message.getPayload();
-        System.out.println("Product : " + product);
+        System.out.println("Message successfully received ==> Product : " + product);
     }
 
 
